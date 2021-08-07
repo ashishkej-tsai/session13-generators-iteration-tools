@@ -1,51 +1,14 @@
 
-# EPAi Session9 Decorators \& Monkey Patching Assignment
-Assignment to check our knowledge of Decocators and Monkey Patching.
+# EPAi Session13 Generators \& Iteration Tools
+Assignment to check our knowledge of Generators and Iteration tools.
 
-Write separate decorators that:
-1. allows a function to run only on odd seconds - 100pts
-2. log - 100pts
-3. authenticate - 300pts
-4. timed (n times) - 100pts
+## Goal 1
+Create a lazy iterator that will return a named tuple of the data in each row. The data types should be appropriate - i.e. if the column is a date, you should be storing dates in the named tuple, if the field is an integer, then it should be stored as an integer, etc.
 
-Write our htmlize code using inbuild singledispatch - 100pts
+## Goal 2
+Calculate the number of violations by car make.
 
-## test logged
- 
-## test odd seconds 
+Note:
+Try to use lazy evaluation as much as possible - it may not always be possible though! That's OK, as long as it's kept to a minimum.
 
-## test authenticate
-
-
-## test timed
-
-
-## test htmlize
-
-
-## test readme contents
-Check whether this README file is interesting or not by counting the number of words it has, must greater than equal to 500
-
-## test readme proper description
-Check whether this file has proper function/class description or not, by looking for these words 
-    'decorator',
-    'factory'
-
-## test readme file for formatting
-Check Mardown formatting by counting \#, it should be greater than 10
-## test indentations
-Check for four or multiple of 4 space indentation in accordance to PEP8
-## test function name had cap letter
-Function name should not have capital letter
-
-## Filler
-
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee 
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee 
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
-1 0 2 30 3 303 30 43403 4304 30 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 er e e e e e e e e e e e e e e e ee
+No Test Cases
